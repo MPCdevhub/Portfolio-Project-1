@@ -383,6 +383,7 @@ body {
     background: linear-gradient(#e5e5e5, #f2f2f2);
     overflow: hidden;
     position: relative;
+    cursor: pointer;
 }
 
 .menu-img {
