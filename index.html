@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+<body>
+<!--LOADING SCREEN-->
+<div class="loading">
+   <img src="gear.gif" alt="" class="preloader">
+</div>
+<!--LOADING SCREEN END-->
+<!--HEADER-->
+<header class="header" id="header">
+    <div class="banner">
+        <!--WEBSITE TITLE-->
+        <h1 class="banner-title global-fonts">madam's brew</h1>
+        <!--ICONS-->
+        <div class="banner-icons">
+            <a href="#" class="social-icons">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icons">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icons">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <!--VIDEO-->
+    <article class="video-container">
+        <video class="video" autoplay muted loop>
+            <source src="coffee.mp4" type="video/mp4">
+            Your browser does not support this video
+        </video>
+    </article>
+    <!--VIDEO END-->
+    <!--NAV BUTTON-->
+    <div class="nav-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <!--NAV BAR-->
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="#" class="link">
+                <img class="logo" src="logo.png" alt="" ></a></li>
+            <li><a href="#header" class="link">home</a></li>
+            <li><a href="#about" class="link">about us</a></li>
+            <li><a href="#contest" class="link">contest</a></li>
+            <li><a href="#menu" class="link">menu</a></li>
+            <li><a href="#contact" class="link">contact</a></li>
+        </ul>
+    </nav>
+    <!--SWITCH-->
+    <div class="switch-container">
+        <div class="switch">
+            <span>on</span>
+            <span>off</span>
+            <div class="switch-btn"></div>
+        </div>
+    </div>
+    <!--SWITCH END-->
+
+</header>
+<!--HEADER END-->
+<!--ABOUT US-->
+<br>
+<br>
+<br>
+<br>
+<section class="about padding" id="about">
+    <div class="grid-container medium">
+        <!--Article-->
+        <article class="about-article">
+            <div class="section-title">
+                <h1 class="section-name global-fonts">our company</h1>
+                <div class="underline"></div>
+                <p class="section-text">sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit
+                    sed ullamcorper morbi tincidunt ornare massa eget egestassapien faucibus et molestie ac feugiat sed lectus
+                    vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas</p>
+            </div>
+            <div class="about-img">
+                <img src="https://images.pexels.com/photos/160834/coffee-cup-and-saucer-black-coffee-loose-coffee-beans-160834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                     alt="" class="img">
+            </div>
+        </article>
+        <!--End of Article-->
+        <!--Article-->
+        <article class="about-article">
+            <div class="section-title">
+                <h1 class="section-name global-fonts">our products</h1>
+                <div class="underline"></div>
+                <p class="section-text">ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra
+                    tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+                    dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at
+                    consectetur lorem</p>
+            </div>
+            <div class="about-img img-second">
+                <img src="https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                     alt="" class="img">
+            </div>
+        </article>
+        <!--End of Article-->
+    </div>
+</section>
+<!--ABOUT US END-->
+<!--CONTEST-->
+<section class="contest padding" id="contest">
+    <div class="grid-container">
+        <!--Form-->
+        <form class="entry-form">
+            <p class="feedback global-fonts"></p>
+            <h3 class="form-text global-fonts">Enter to win free drinks!</h3>
+            <div class="form-input">
+                <input type="text" class="first-name" name="" id="first" maxlength="20" placeholder="First Name">
+            </div>
+            <div class="form-input">
+                <input type="text" class="last-name" name="" id="last" maxlength="20" placeholder="Last Name">
+            </div>
+            <div class="form-input">
+                <input type="email" class="email" name="" id="emailinput" maxlength="20" placeholder="Email">
+            </div>
+            <div class="form-input">
+                <input type="button" value="submit" class="submit" name="" id="" maxlength="20">
+            </div>
+        </form>
+        <!--Display Article-->
+        <article class="display-winners">
+            <h3 class="dw-text global-fonts">previous winners</h3>
+            <div class="dw-list">
+                <div class="winner">
+                    <img src="https://images.pexels.com/photos/2128807/pexels-photo-2128807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="thumbnail">
+                    <h4 class="fname">jon</h4>
+                    <h4 class="lname">doe</h4>
+                </div>
+                <div class="winner">
+                    <img src="https://images.pexels.com/photos/2120745/pexels-photo-2120745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="thumbnail">
+                    <h4 class="fname">jane</h4>
+                    <h4 class="lname">doe</h4>
+                </div>
+                <div class="winner">
+                    <img src="https://images.pexels.com/photos/2121541/pexels-photo-2121541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="thumbnail">
+                    <h4 class="fname">jean</h4>
+                    <h4 class="lname">deau</h4>
+                </div>
+                <div class="winner">
+                    <img src="https://images.pexels.com/photos/2092709/pexels-photo-2092709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="thumbnail">
+                    <h4 class="fname">jan</h4>
+                    <h4 class="lname">doh</h4>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+<!--CONTEST END-->
+<!--PRODUCT MENU-->
+<section class="menu padding" id="menu">
+    <div class="section-title left">
+    <h1 class="section-name global-fonts">menu</h1>
+    <div class="underline"></div>
+    </div>
+    <img src="menu.png" alt="" class="menu-list">
+    <div class="menu-img-container">
+        <!--Image Modal-->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01" alt="">
+        </div>
+        <!--Menu Article-->
+        <article class="menu-item drink-1">
+            <img src="images/img-1.jpg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-2">
+            <img src="images/img-2.jpeg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-3">
+            <img src="images/img-3.jpeg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-4">
+            <img src="images/img-4.jpeg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-5">
+            <img src="images/img-5.jpeg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-6">
+            <img src="images/img-6.jpeg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-7">
+            <img src="images/img-7.jpeg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-8">
+            <img src="images/img-8.jpeg" alt="" class="menu-img myImg">
+        </article>
+        <!--Menu Article-->
+        <article class="menu-item drink-9">
+            <img src="images/img-9.jpeg" alt="" class="menu-img myImg">
+               <!--<i class="fas fa-search fa-5x"></i>-->
+        </article>
+         </div>
+
+</section>
+<!--PRODUCT MENU END-->
+<!--CONTACT-->
+<section class="contact padding" id="contact">
+    <div class="section-title left">
+        <h1 class="section-name global-fonts">contact</h1>
+        <div class="underline"></div>
+    </div>
+ <div class="contact-container">
+     <iframe class="map" src="https://maps.google.com/maps?q=340%20Hillsdale%20Shopping%20Center%2C%20San%20Mateo%2C%20CA%2094403&t=&z=13&ie=UTF8&iwloc=&output=embed"
+             width="500" height="450" frameborder="0" style="borde" allowfullscreen></iframe>
+     <div class="contact-info">
+         <!--Contact Article-->
+         <div class="contact-article">
+             <div class="contact-icon">
+                 <i class="fas fa-map-pin"></i>
+             </div>
+             <h2 class="contact-article-title">address</h2>
+             <p class="contact-article-text">340 hillsdale shopping center, san mateo</p>
+         </div>
+         <!--Contact Article-->
+         <div class="contact-article">
+             <div class="contact-icon">
+                 <i class="fas fa-headphones"></i>
+             </div>
+             <h2 class="contact-article-title">support</h2>
+             <p class="contact-article-text"><span><i class="fas fa-phone"></i></span>123-456-7890</p>
+             <p class="contact-article-text">email@email.com</p>
+         </div>
+         <!--Contact Article-->
+         <div class="contact-article">
+             <div class="contact-icon">
+                 <i class="fas fa-clock"></i>
+             </div>
+             <h2 class="contact-article-title">hours</h2>
+             <p class="contact-article-text">mon-fri 9:00 am - 6:00pm</p>
+         </div>
+     </div>
+ </div>
+</section>
+<!--CONTACT END-->
+<script src="script.js"></script>
+
+</body>
+</html>
